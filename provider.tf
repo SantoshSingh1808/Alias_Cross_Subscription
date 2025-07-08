@@ -10,11 +10,9 @@ terraform {
 provider "azurerm" {
   # Configuration options
   features {}
-   alias = "Ketu"
 }
 
 provider "azurerm" {
   # Configuration options
   features {}
-  alias = "Rahu"
 }
