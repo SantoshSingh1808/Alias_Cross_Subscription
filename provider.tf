@@ -25,7 +25,7 @@ provider "azurerm" {
   client_id = var.client_id
   client_secret = var.client_secret
   alias = "Rahu"
-
+}
 
 provider "azurerm" {
   # Configuration options
@@ -34,6 +34,8 @@ provider "azurerm" {
   tenant_id = var.tenant_id
   client_id = var.client_id
   client_secret = var.client_secret
-  alias = "Sani"
+  alias = "budh"
 }
+
+
 
