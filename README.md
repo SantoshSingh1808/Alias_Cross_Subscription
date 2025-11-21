@@ -98,13 +98,13 @@ Now the child module uses the aliased provider you passed.
 
 ---
 
-# 🧠 **Interview-ready Explanation (Short)**
+# 🧠 **Short**
 
 **“A Terraform provider alias lets you define multiple configurations of the same provider. For example, when deploying Azure resources across multiple subscriptions, each subscription needs its own provider block with an alias. Then resources or modules can reference those using `provider = azurerm.aliasname`. It’s mainly used for multi-region, multi-subscription, or multi-account deployments.”**
 
 ---
 
-# 🧠 **Interview-ready Explanation (One-liner)**
+# 🧠 **One-liner**
 
 **“Provider alias = multiple Terraform provider configurations for the same cloud provider.”**
 
